@@ -37,12 +37,11 @@ This project predicts the risk level of heart disease in patients using machine 
    - Pairplots using **:contentReference[oaicite:2]{index=2}** for selected features
 
 3. **Model Training**
-   - **:contentReference[oaicite:3]{index=3}**
-   - **:contentReference[oaicite:4]{index=4}**
-   - **:contentReference[oaicite:5]{index=5}** (ANN)
-   - **:contentReference[oaicite:6]{index=6} (SVC)**
-   - **:contentReference[oaicite:7]{index=7} (KNN)**
-   - Standardized features using **:contentReference[oaicite:8]{index=8}** `StandardScaler` for ANN
+   - Gaussian Naive Bayes   
+|  - Random Forest Classifier    
+|  - ANN (TensorFlow/Keras)      
+|  - Support Vector Classifier   
+|  - K-Nearest Neighbors
 
 4. **Evaluation**
    - Accuracy
@@ -76,11 +75,11 @@ This project predicts the risk level of heart disease in patients using machine 
 ## 📌 Future Improvements
 
 - Hyperparameter tuning
-- Trying more advanced models (:contentReference[oaicite:18]{index=18}, :contentReference[oaicite:19]{index=19}, etc.)
+- Trying more advanced models 
 - Use cross-validation for robust evaluation
 - Build a web interface to predict heart attack risk
 
 ---
 
-## 📁 Project Structure
+
 
