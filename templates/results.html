@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <style>
+        body {
+          background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background: #fff;
+            max-width: 450px;
+            margin: 60px auto;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        h1 {
+            color: #e63946;
+            margin-bottom: 20px;
+        }
+        .result {
+            color: #1d3557;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 25px;
+            text-decoration: none;
+            color: #fff;
+            background: #457b9d;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .back-btn:hover {
+            background: #1d3557;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Prediction Result</h1>
+    <p>Your predicted heart disease risk level is:</p>
+    <h2 class="result">{{ prediction }}</h2>
+    <a href="/" class="back-btn">Go Back</a>
+</div>
+</body>
+</html>
